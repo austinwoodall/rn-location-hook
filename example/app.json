@@ -1,0 +1,22 @@
+{
+  "name": "rn-location-hook-example",
+  "displayName": "RnLocationHook Example",
+  "expo": {
+    "name": "rn-location-hook-example",
+    "slug": "rn-location-hook-example",
+    "description": "Example app for rn-location-hook",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
