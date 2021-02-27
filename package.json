@@ -1,7 +1,7 @@
 {
   "name": "rn-location-hook",
-  "version": "0.1.0",
-  "description": "Hook that use expo-location to retrieve device coordinates",
+  "version": "0.1.2",
+  "description": "A React hook that use expo-location to retrieve device coordinates.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -33,6 +33,12 @@
   },
   "keywords": [
     "react-native",
+    "react native",
+    "expo",
+    "expo-location",
+    "location",
+    "hooks",
+    "hook",
     "ios",
     "android"
   ],
@@ -61,7 +67,7 @@
     "jest": "^26.0.1",
     "pod-install": "^0.1.0",
     "prettier": "^2.0.5",
-    "react": "16.13.1",
+    "react": "^16.13.1",
     "react-native": "0.63.4",
     "react-native-builder-bob": "^0.17.1",
     "release-it": "^14.2.2",
@@ -77,12 +83,6 @@
       "<rootDir>/example/node_modules",
       "<rootDir>/lib/"
     ]
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint && yarn typescript"
-    }
   },
   "commitlint": {
     "extends": [
@@ -149,5 +149,8 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "expo-location": "^11.0.0"
   }
 }

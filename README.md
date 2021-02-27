@@ -7,15 +7,17 @@ Hook that use expo-location to retrieve device coordinates
 ```sh
 npm install rn-location-hook
 ```
+```sh
+yarn add rn-location-hook
+```
 
 ## Usage
 
 ```js
-import RnLocationHook from "rn-location-hook";
-
+import useUserLocation from "rn-location-hook";
 // ...
+const { isLocationEnbaled, isLoading, latitude, longitude, error } = useUserLocation();
 
-const result = await RnLocationHook.multiply(3, 7);
 ```
 
 ## Contributing
